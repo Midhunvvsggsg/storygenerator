@@ -3,14 +3,15 @@ const generateBtn = document.getElementById('generate');
 const story = document.getElementById('story');
 
 const stories = [
-    "Bob ate 100 hot dogs in 10 minutes and turned into a balloon.",
-    "Bob danced so hard, their shoes flew into space.",
-    "Bob tried to pet a cat. The cat taught Bob kung fu.",
-    "Bob sneezed so loudly, the moon said 'Bless you!'",
-    "Bob slipped on a banana peel and landed in a cake.",
-    "Bob screamed at a spider. The spider screamed back.",
-    "Bob wore sunglasses at night. A raccoon asked for fashion advice.",
-    "Bob accidentally married a talking sandwich. It was delicious.",
+    "Bob built a rocket out of soda cans and flew to the grocery store.",
+"Bob argued with a toaster and lost.",
+"Bob tried to yawn quietly and summoned a lion.",
+"Bob painted their house with ketchup by mistake. Now ants own it.",
+"Bob high-fived a tree and became its best friend.",
+"Bob blinked too hard and accidentally time-traveled to lunch.",
+"Bob sang to the microwave and it applauded.",
+"Bob slipped on air and invented a new dance move.",
+
 ];
 
 function randomValueFromArray(array) {
